@@ -32,9 +32,14 @@ const menuItems = [
     icon: LayoutDashboard,
   },
   {
-    title: "Inventario",
+    title: "Productos", // Changed title from "Inventario" to "Productos" for clarity
     url: "/dashboard/productos",
     icon: Package,
+  },
+  {
+    title: "Gestión de Inventario", // New entry for stock movements and mass import
+    url: "/dashboard/inventario",
+    icon: Package, // You can choose a different icon if preferred, e.g., Box, Warehouse
   },
   {
     title: "Ventas",
