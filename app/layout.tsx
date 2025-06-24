@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Solvendo - Back Office",
   description: "Sistema administrativo Solvendo",
-    generator: 'v0.dev'
+  generator: "vercel",
 }
 
 export default function RootLayout({
